@@ -1,0 +1,19 @@
+#version: "3.8"
+#
+#services:
+#  mysql:
+#    image: mysql:8
+#    ports:
+#      - "3307:3306"
+#    environment:
+#      MYSQL_ROOT_PASSWORD: root1234
+#      MYSQL_DATABASE: scm20
+#    volumes:
+#      - ./mysql_data:/var/lib/myssql
+
+
+#  springboot:
+#    build: .
+#    container_name: scm_springboot_project
+#    environment:
+#      SERVER
